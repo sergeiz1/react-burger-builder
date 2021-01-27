@@ -1,0 +1,10 @@
+import React from 'react';
+import classes from './Spinner.css';
+
+const spinner = () => (
+    <div className={classes.LdsRoller}>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+);
+
+export default spinner;
